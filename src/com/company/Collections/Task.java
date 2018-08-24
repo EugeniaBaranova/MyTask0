@@ -17,14 +17,14 @@ public class Task {
         System.out.println(myArrayList.isEmpty());
         System.out.println(myArrayList.size());
 
-        ArrayList<Integer> myArrayList2 = new ArrayList<Integer>();
+        ArrayList<Integer> myArrayList2 = new ArrayList<>();
         myArrayList2.add(1);
         myArrayList2.add(3);
         myArrayList2.addAll(myArrayList);
         System.out.println(myArrayList2);
 
 
-        LinkedList<String> myLinkedList = new LinkedList<String>();
+        LinkedList<String> myLinkedList = new LinkedList<>();
         myLinkedList.add("Hi");
         myLinkedList.add("Buy");
         System.out.println(myLinkedList);
